@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		143DA6122D6770C300767D8B /* CopyFiles */ = {
+		03D20F832E31954300C2E60C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -19,19 +19,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		143DA6142D6770C300767D8B /* dylinject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dylinject; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D20F852E31954300C2E60C /* dylinject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dylinject; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F35F962E86F8A000812787 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		03F35F9A2E86F91400812787 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		143DA6162D6770C300767D8B /* Dylinject */ = {
+		03D20F872E31954300C2E60C /* dylinject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Dylinject;
+			path = dylinject;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		143DA6112D6770C300767D8B /* Frameworks */ = {
+		03D20F822E31954300C2E60C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,18 +43,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		143DA60B2D6770C300767D8B = {
+		03D20F7C2E31954300C2E60C = {
 			isa = PBXGroup;
 			children = (
-				143DA6162D6770C300767D8B /* Dylinject */,
-				143DA6152D6770C300767D8B /* Products */,
+				03D20F872E31954300C2E60C /* dylinject */,
+				03D20F862E31954300C2E60C /* Products */,
+				03F35F962E86F8A000812787 /* README.md */,
+				03F35F9A2E86F91400812787 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
-		143DA6152D6770C300767D8B /* Products */ = {
+		03D20F862E31954300C2E60C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				143DA6142D6770C300767D8B /* dylinject */,
+				03D20F852E31954300C2E60C /* dylinject */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,63 +64,63 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		143DA6132D6770C300767D8B /* dylinject */ = {
+		03D20F842E31954300C2E60C /* dylinject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 143DA61B2D6770C300767D8B /* Build configuration list for PBXNativeTarget "dylinject" */;
+			buildConfigurationList = 03D20F8C2E31954300C2E60C /* Build configuration list for PBXNativeTarget "dylinject" */;
 			buildPhases = (
-				143DA6102D6770C300767D8B /* Sources */,
-				143DA6112D6770C300767D8B /* Frameworks */,
-				143DA6122D6770C300767D8B /* CopyFiles */,
+				03D20F812E31954300C2E60C /* Sources */,
+				03D20F822E31954300C2E60C /* Frameworks */,
+				03D20F832E31954300C2E60C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				143DA6162D6770C300767D8B /* Dylinject */,
+				03D20F872E31954300C2E60C /* dylinject */,
 			);
 			name = dylinject;
 			packageProductDependencies = (
 			);
-			productName = test;
-			productReference = 143DA6142D6770C300767D8B /* dylinject */;
+			productName = dylinject;
+			productReference = 03D20F852E31954300C2E60C /* dylinject */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		143DA60C2D6770C300767D8B /* Project object */ = {
+		03D20F7D2E31954300C2E60C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1620;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					143DA6132D6770C300767D8B = {
-						CreatedOnToolsVersion = 16.2;
+					03D20F842E31954300C2E60C = {
+						CreatedOnToolsVersion = 16.4;
 					};
 				};
 			};
-			buildConfigurationList = 143DA60F2D6770C300767D8B /* Build configuration list for PBXProject "dylinject" */;
+			buildConfigurationList = 03D20F802E31954300C2E60C /* Build configuration list for PBXProject "dylinject" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 143DA60B2D6770C300767D8B;
+			mainGroup = 03D20F7C2E31954300C2E60C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 143DA6152D6770C300767D8B /* Products */;
+			productRefGroup = 03D20F862E31954300C2E60C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				143DA6132D6770C300767D8B /* dylinject */,
+				03D20F842E31954300C2E60C /* dylinject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		143DA6102D6770C300767D8B /* Sources */ = {
+		03D20F812E31954300C2E60C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -126,7 +130,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		143DA6192D6770C300767D8B /* Debug */ = {
+		03D20F8A2E31954300C2E60C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -161,6 +165,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MP26D4WTMR;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -179,7 +184,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -187,7 +192,7 @@
 			};
 			name = Debug;
 		};
-		143DA61A2D6770C300767D8B /* Release */ = {
+		03D20F8B2E31954300C2E60C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,6 +227,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MP26D4WTMR;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -234,43 +240,35 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		143DA61C2D6770C300767D8B /* Debug */ = {
+		03D20F8D2E31954300C2E60C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
-				ARCHS = (
-					arm64e,
-					arm64,
-				);
-				CODE_SIGN_ENTITLEMENTS = Dylinject/dylinject.entitlements;
+				ARCHS = arm64e;
+				CODE_SIGN_ENTITLEMENTS = dylinject/dylinject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3FC7C2PF4P;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				DEVELOPMENT_TEAM = MP26D4WTMR;
+				ENABLE_HARDENED_RUNTIME = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = melon.dylinject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		143DA61D2D6770C300767D8B /* Release */ = {
+		03D20F8E2E31954300C2E60C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
-				ARCHS = (
-					arm64e,
-					arm64,
-				);
-				CODE_SIGN_ENTITLEMENTS = Dylinject/dylinject.entitlements;
+				ARCHS = arm64e;
+				CODE_SIGN_ENTITLEMENTS = dylinject/dylinject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3FC7C2PF4P;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				DEVELOPMENT_TEAM = MP26D4WTMR;
+				ENABLE_HARDENED_RUNTIME = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = melon.dylinject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -278,25 +276,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		143DA60F2D6770C300767D8B /* Build configuration list for PBXProject "dylinject" */ = {
+		03D20F802E31954300C2E60C /* Build configuration list for PBXProject "dylinject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				143DA6192D6770C300767D8B /* Debug */,
-				143DA61A2D6770C300767D8B /* Release */,
+				03D20F8A2E31954300C2E60C /* Debug */,
+				03D20F8B2E31954300C2E60C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		143DA61B2D6770C300767D8B /* Build configuration list for PBXNativeTarget "dylinject" */ = {
+		03D20F8C2E31954300C2E60C /* Build configuration list for PBXNativeTarget "dylinject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				143DA61C2D6770C300767D8B /* Debug */,
-				143DA61D2D6770C300767D8B /* Release */,
+				03D20F8D2E31954300C2E60C /* Debug */,
+				03D20F8E2E31954300C2E60C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 143DA60C2D6770C300767D8B /* Project object */;
+	rootObject = 03D20F7D2E31954300C2E60C /* Project object */;
 }
